@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 
 import '../assets/stylesheets/application.scss';
+import App from './components/app.jsx';
 
 class Hello extends Component {
   constructor (props) {
@@ -33,5 +34,5 @@ class Hello extends Component {
 
 const root = document.getElementById('root');
 if (root) {
-  ReactDOM.render(<Hello name="Sirrdi" />, root);
+  ReactDOM.render(<App />, root);
 }
